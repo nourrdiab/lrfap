@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit these — contains secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime and build output
+dist/
+build/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel
+
+# Misc
+*.pid
+*.seed
+
+# Claude Code local settings
+.claude/settings.local.json
